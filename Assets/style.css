@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 *{
-    font-family: Bebas Neue,sans-serif;
+    
 
 }
 body{
     background-color: #4158D0;
 background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+font-family: Poppins,sans-serif;
 
 }
 h1{
@@ -34,4 +36,30 @@ a:hover{
     display: flex;
     border: 1px solid red;
     justify-content: space-around;
+}
+#description{
+    font-size: 1.2rem;
+}
+img{
+    border-radius: 40px;
+    width: 326px;
+    height: 326px;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+h2{
+    color: white;
+}
+#container1{
+    width: 300px;
+    text-align: justify;
+    
+}
+#description{
+    text-align: justify;
+
+    width: 326px;
 }
